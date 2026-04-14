@@ -8,9 +8,9 @@
 
 \- \*\*Materia:\*\* Desarrollo de Aplicaciones Web  
 
-\- \*\*Alumno:\*\* Gustavo Pérez  
+\- \*\*Alumno:\*\* Carlos Gustavo Pérez  
 
-\- \*\*Comisión:\*\* \[Tu comisión]
+\- \*\*Comisión:\*\* 4°-A
 
 
 
