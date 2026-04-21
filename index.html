@@ -7,68 +7,94 @@
 </head>
 <body>
 
-    <h1>Microsoft corrige un zero-day en SharePoint y parchea 169 vulnerabilidades</h1>
+    <!-- Navegación -->
+    <nav>
+        <a href="#">Inicio</a> |
+        <a href="#">Noticias</a> |
+        <a href="#">Tecnología</a>
+    </nav>
 
-    <h2>La actualización de abril de 2026 incluye una vulnerabilidad crítica explotada activamente</h2>
+    <!-- Contenido principal -->
+    <main>
 
-    <p>
-        Microsoft ha corregido un total de 169 vulnerabilidades en su última actualización de seguridad,
-        incluyendo un zero-day en SharePoint Server que estaba siendo explotado activamente.
-        Estas fallas afectan a múltiples versiones de Windows y otros servicios clave.
-    </p>
+        <article>
+            <header>
+                <h1>Microsoft corrige un zero-day en SharePoint y parchea 169 vulnerabilidades</h1>
+                <h2>La actualización de abril de 2026 incluye una vulnerabilidad crítica explotada activamente</h2>
+            </header>
 
-    <h2>Un Patch Tuesday de alto impacto</h2>
+            <section>
+                <p>
+                    Microsoft ha corregido un total de <strong>169 vulnerabilidades</strong> en su última actualización
+                    de seguridad, incluyendo un zero-day en SharePoint Server que estaba siendo explotado activamente.
+                </p>
+            </section>
 
-    <p>
-        La actualización mensual de seguridad, conocida como Patch Tuesday, corresponde a abril de 2026
-        y representa uno de los mayores volúmenes de vulnerabilidades corregidas por la compañía.
-        Incluye fallos que permiten elevación de privilegios, ejecución remota de código
-        y suplantación de identidad. :contentReference[oaicite:0]{index=0}
-    </p>
+            <section>
+                <h3>Un Patch Tuesday de alto impacto</h3>
+                <p>
+                    La actualización mensual incluye fallos que permiten elevación de privilegios,
+                    ejecución remota de código y suplantación de identidad.
+                </p>
+            </section>
 
-    <h3>Vulnerabilidades más relevantes</h3>
+            <section>
+                <h3>Vulnerabilidades más relevantes</h3>
+                <p>
+                    La más crítica es <strong>CVE-2026-32201</strong>, que afecta a SharePoint Server.
+                </p>
 
-    <p>
-        La vulnerabilidad más destacada es <strong>CVE-2026-32201</strong>, que afecta a SharePoint Server
-        y permite a atacantes suplantar identidad y manipular información mediante entradas maliciosas.
-    </p>
+                <p>
+                    Otras vulnerabilidades incluyen:
+                </p>
 
-    <p>
-        También se identificaron otras fallas importantes como:
-    </p>
+                <ul>
+                    <li><strong>CVE-2026-33825</strong> - Elevación de privilegios</li>
+                    <li><strong>CVE-2026-33824</strong> - Ejecución remota de código</li>
+                </ul>
+            </section>
 
-    <p>
-        - <strong>CVE-2026-33825</strong>: permite elevación de privilegios en Microsoft Defender.<br>
-        - <strong>CVE-2026-33824</strong>: posibilita la ejecución remota de código en el servicio IKE de Windows.
-    </p>
+            <section>
+                <h3>Riesgos para las organizaciones</h3>
+                <p>
+                    Estas fallas pueden permitir acceso no autorizado, pérdida de datos y movimiento lateral
+                    dentro de redes corporativas.
+                </p>
+            </section>
 
-    <h2>Riesgos para las organizaciones</h2>
+            <section>
+                <h3>Más información</h3>
+                <p>
+                    Podés leer la noticia completa en 
+                    <a href="https://unaaldia.hispasec.com/2026/04/microsoft-corrige-un-zero-day-en-sharepoint-y-parchea-169-vulnerabilidades.html" target="_blank">
+                        este enlace
+                    </a>.
+                </p>
+            </section>
 
-    <p>
-        La explotación de estas vulnerabilidades puede derivar en pérdida de información sensible,
-        acceso no autorizado a sistemas y movimiento lateral dentro de redes corporativas.
-        En particular, el zero-day en SharePoint representa un riesgo crítico debido a su uso activo en ataques. :contentReference[oaicite:1]{index=1}
-    </p>
+        </article>
 
-    <h2>Recomendaciones de seguridad</h2>
+        <!-- Formulario de suscripción -->
+        <section>
+            <h2>Suscribite para recibir más noticias</h2>
+            <p>Completá el formulario para recibir actualizaciones sobre seguridad informática.</p>
 
-    <p>
-        Se recomienda aplicar los parches de seguridad de forma inmediata, especialmente en sistemas
-        que utilicen SharePoint Server, Microsoft Defender o conexiones VPN.
-    </p>
+            <form>
+                <fieldset>
+                    <legend>Formulario de suscripción</legend>
 
-    <p>
-        Además, es importante verificar la exposición a internet, revisar los registros de seguridad
-        y reforzar las medidas de protección en la infraestructura.
-    </p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
 
-    <h2>Importancia de la gestión de parches</h2>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
 
-    <p>
-        Mantener los sistemas actualizados es clave para evitar que vulnerabilidades conocidas
-        sean utilizadas como puerta de entrada por atacantes. Una gestión ágil de parches y
-        monitoreo constante resulta fundamental en entornos empresariales. :contentReference[oaicite:2]{index=2}
-    </p>
+                    <button type="submit">Suscribirse</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
 
 </body>
 </html>
