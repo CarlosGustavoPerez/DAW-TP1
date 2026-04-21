@@ -1,102 +1,27 @@
-\# 🚀 Clase 01 - Git y GitHub
+# 🚀 Desarrollo de Aplicaciones Web
 
+## 📌 Información
 
+- **Materia:** Desarrollo de Aplicaciones Web  
+- **Alumno:** Gustavo Pérez  
+- **Comisión:** [Tu comisión]
 
-\## 📌 Información General
+---
 
+# 📁 Clase 01 - Git y GitHub
 
+## 🎯 Objetivo
 
-\- \*\*Materia:\*\* Desarrollo de Aplicaciones Web  
+Familiarizarse con el uso básico de Git y GitHub, incluyendo creación de repositorios, manejo de ramas y uso de Pull Requests.
 
-\- \*\*Alumno:\*\* Carlos Gustavo Pérez  
+## 📝 Descripción
 
-\- \*\*Comisión:\*\* 4°-A
-
-
-
-\---
-
-
-
-\## 🎯 Objetivo
-
-
-
-Este repositorio fue creado como parte de la actividad correspondiente a la Clase 01.  
-
-El objetivo principal es aplicar y consolidar el flujo de trabajo básico con Git y GitHub, incluyendo:
-
-
-
-\- Creación de repositorios
-
-\- Gestión de ramas
-
-\- Uso de Pull Requests
-
-
-
-\---
-
-
-
-\## 📚 Contenidos Abordados
-
-
-
-\- Introducción a Git y su propósito
-
-\- Diferencias entre repositorios locales y remotos
-
-\- Flujo de trabajo básico
-
-\- Manejo de ramas (branching)
-
-\- Creación y revisión de Pull Requests
-
-
-
-\---
-
-
-
-\## 🛠️ Comandos Utilizados
-
-
-
-```bash
-
-git init
-
-git add .
-
-git commit -m "Primer commit"
-
-git push
-
-```
-
-
-
-\## 🌿 Flujo de Trabajo
-
-
-
-1\. Creación del repositorio  
-
-2\. Creación de una nueva rama  
-
-3\. Realización de cambios  
-
-4\. Commit de los cambios  
-
-5\. Push al repositorio remoto  
-
-6\. Creación de Pull Request  
-
-
-
-\---
+Se creó un repositorio público y se practicó el flujo de trabajo básico con Git:
+- Inicialización del repositorio  
+- Creación de ramas  
+- Commits  
+- Push al repositorio remoto  
+- Pull Requests  
 
 ---
 
@@ -104,11 +29,15 @@ git push
 
 ## 🎯 Objetivo
 
-El objetivo de esta actividad es aplicar los conceptos básicos de HTML, construyendo un documento correctamente estructurado que represente el contenido de una noticia real.
+Aplicar los conceptos básicos de HTML mediante la creación de un documento que represente el contenido de una noticia real.
 
 ## 📝 Descripción
 
-Se seleccionó una noticia de un diario online y se replicó su contenido principal en un archivo `index.html`, respetando su estructura semántica (título, subtítulos y párrafos).
+Se seleccionó una noticia online y se replicó su contenido principal en un archivo `index.html`, respetando su estructura semántica:
+
+- Título  
+- Subtítulos  
+- Párrafos  
 
 ## 🌐 Noticia seleccionada
 
@@ -117,30 +46,48 @@ https://unaaldia.hispasec.com/2026/04/microsoft-corrige-un-zero-day-en-sharepoin
 
 ## 🌿 Trabajo con Git
 
-- Rama utilizada: `clase-02-html`
-- Desarrollo realizado en dicha rama
-- Integración mediante Pull Request a `main`
-
-## 🛠️ Tecnologías utilizadas
-
-- HTML5  
-- Git  
-- GitHub  
+- Rama utilizada: `clase-02-html`  
+- Desarrollo realizado en una branch independiente  
+- Integración mediante Pull Request a `main`  
 
 ---
 
-## 🌿 Flujo de trabajo con Git
+# 🧩 Clase 03 - HTML Semántico y Formularios
 
-- Se creó una rama específica para la actividad: `clase-02-html`  
-- Se desarrolló el archivo `index.html` en dicha rama  
-- Se realizó commit con los cambios  
-- Se subió la rama al repositorio remoto  
-- Se creó una Pull Request hacia `main`  
-- Se integraron los cambios mediante merge  
+## 🎯 Objetivo
+
+Mejorar la estructura del documento HTML incorporando etiquetas semánticas y agregar un formulario de suscripción, diferenciando elementos de bloque y de línea.
+
+## 📝 Descripción
+
+Se retomó el archivo `index.html` de la actividad anterior y se realizaron las siguientes mejoras:
+
+- Reorganización del contenido usando etiquetas semánticas:
+  - `<nav>`, `<main>`, `<article>`, `<section>`, `<header>`
+- Incorporación de elementos en línea como `<a>` y `<strong>`
+- Mejora de la estructura del contenido para mayor claridad y orden
+
+## 🧾 Formulario agregado
+
+Se incorporó un formulario de suscripción que incluye:
+
+- Campo de nombre  
+- Campo de correo electrónico  
+- Botón de envío  
+
+Etiquetas utilizadas:
+- `<form>`, `<label>`, `<input>`, `<button>`
+- `<fieldset>` y `<legend>` (estructura adicional)
+
+## 🌿 Trabajo con Git
+
+- Rama utilizada: `clase-03-formularios`  
+- Desarrollo realizado sobre una nueva branch  
+- Integración mediante Pull Request a `main`  
 
 ---
 
-## 📎 Estructura del proyecto
+## 📂 Estructura del proyecto
 
 ```bash
 /
