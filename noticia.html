@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolución de las aplicaciones web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav-container">
+            <h2 class="logo">Genbeta</h2>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Desarrollo</a></li>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Seguridad</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <main class="container">
+
+        <article class="article">
+
+            <header>
+                <h1>Así se ha ido complicando la arquitectura detrás de las aplicaciones web en los últimos 26 años</h1>
+            </header>
+
+            <!-- Imagen principal -->
+            <img class="main-img" src="https://i.blogs.es/049646/web-hosting-5965504_1920/1366_2000.webp" alt="Evolución web">
+
+            <section>
+                <p>
+                    Hace 26 años, en 1995, tuvo lugar un evento que revolucionó el incipiente sector del desarrollo web: 
+                    el nacimiento de la pila LAMP; es decir, del uso combinado de sistemas Linux equipados con el servidor Apache, 
+                    bases de datos MySQL y el intérprete de PHP.
+                </p>
+
+                <p>
+                    El problema es que exigía un gran uso de memoria y CPU en una época en que ambos recursos se medían aún en
+                     megahercios y megabytes. Ben Johnson, creador de Litestream, rememora en su blog esta época y la evolución 
+                     posterior del sector, y se hace a raíz de eso una pregunta:
+                </p>
+                <blockquote>
+                <p>
+                    "Pero, si la Ley de Moore nos prometió un futuro mejor en el que las computadoras se volvían exponencialmente 
+                    más rápidas [...], <strong>¿por qué necesitamos más computadoras que nunca?"</strong>.
+                </p>
+                </blockquote>
+            </section>
+            <img src="img/1366_2000 (1).webp" alt="Evolución web">
+            <section>
+                <h2>La complejidad empieza a crecer</h2>
+
+                <p>
+                    De lo que Johnson habla es del surgimiento de la arquitectura n-tier, que llevó a la <strong>separación física de niveles 
+                    entre cliente, servidor lógico y servidor de datos,</strong> en una búsqueda de que la lentitud de procesamiento de PHP o 
+                    Ruby no repercutiera sobre el rendimiento de las bases de datos SQL.
+                </p>
+                <p>
+                    Esta arquitectura de 'n' niveles suena simple al principio, pero contiene una complejidad oculta:
+                </p>
+                <blockquote>
+                <p>
+                    "En una sola máquina, podríamos a nuestro servidor memoria caché para acelerar las solicitudes, 
+                    pero ahora los datos se comparten entre varias máquinas, por lo que debemos agregar un servidor 
+                    memcached o Redis para compartir datos almacenados en caché".
+                </p>
+                <p>
+                    "Los servidores de bases de datos se sobrecargan fácilmente cuando se dan numerosas conexiones simultáneas, 
+                    por lo que tenemos que agregar servicios intermedios como PgBouncer".
+                    </p>
+                <p>
+                    "Si tenemos eventos en nuestro sistema que deben ser comunicados a todos nuestros nodos, 
+                    entonces necesitamos un clúster de máquinas Kafka".
+                </p>
+                </blockquote>
+                <p>
+                    En definitiva, <strong>"nos encontramos con toda una flota de máquinas a administrar".</strong>
+                </p>
+            </section>
+
+            <section>
+                <h2>Y llegan la virtualización y los contenedores</h2>
+
+                <p>
+                    Pero, mientras todo el mundo perdía los nervios por culpa de la amenaza del 'Efecto 2000', 
+                    se venía fraguando <strong>una nueva revolución en la industria de la arquitectura web: la virtualización.</strong>
+                </p>
+                <p>
+                    Según <a rel="noopener, noreferrer" href="https://www.linkedin.com/pulse/evolution-virtualization-containers-from-lamp-lawrence-edmondson/" 
+                    data-mrf-link="https://www.linkedin.com/pulse/evolution-virtualization-containers-from-lamp-lawrence-edmondson/" 
+                    cmp-ltrk="Article links" cmp-ltrk-idx="4" mrfobservableid="c697bcb8-fcdf-46d7-8f3c-bee3e5959728">relata</a> 
+                    Lawrence Edmonson, responsable de ingeniería de Squarespace, "la virtualización 
+                    <strong>resolvió muchos de los problemas de escalado de la burbuja de puntocom</strong> y dio origen a una unidad 
+                    de negocio completamente nueva de Amazon (Amazon Web Services) en 2006".
+                </p>
+                <p>
+                    Así, fueron llegando diferentes tecnologías de virtualización (VMWare, Virtualbox) o complementarias 
+                    a la misma (como Chef y Vagrant). Luego, aparecieron los contenedores, como Docker y Kubernetes.
+                </p>
+                <p>
+                    Todas ellas son herramientas útiles que han hecho avanzar el desarrollo web, pero Johnson señala el aspecto negativo de las mismas:
+                </p>
+                <blockquote>
+                    <p>
+                        "Todas estas capas nos ralentizan de nuestro trabajo de escribir sistemas de software que resuelvan
+                         problemas reales".
+                    </p>
+                    <p>
+                        "Lo que comenzó como un simple sistema de software de dos niveles se ha convertido en un gigante 
+                        con una docena de capas de complejidad".
+                    </p>
+                </blockquote>
+                <p>
+                    A eso se añade otro problema, precisamente uno que ha ayudado al auge de Kubernetes... 
+                    <strong>la persecución del tiempo de actividad como un objetivo en sí mismo</strong>:
+                </p>
+                <blockquote>
+                    <p>
+                        "Soluciones como Kubernetes promocionan las ventajas de las implementaciones sin tiempo de inactividad, 
+                        pero ignoran que su complejidad inherente causa problemas de disponibilidad".
+                    </p>
+                </blockquote>
+            </section>
+            <img src="img/1366_2000 (2).webp" alt="Evolución web">
+            <section>
+                <h2>La complejidad ha generado complejidad</h2>
+
+                <p>
+                    Y lo resume así: "La complejidad engendra complejidad". Un usuario que comentaba el post de Johnson 
+                    en Hacker News profundiza en esa idea:
+                </p>
+                <blockquote>
+                    <p>
+                        "Veo que la complejidad se debe a la replicación de los numerosos servicios del sistema operativo que requieren las aplicaciones. Como resultado, un ecosistema en contenedores sólo reinventar la rueda pero complicándola aún más.
+                    </p>
+                    <p>
+                        Y esto no hace sino extenderse como un cáncer: las infraestructuras no-Kubernetes son ahora 'abandonware'".
+                    </p>
+                </blockquote>
+                <p>
+                    Y lo resume así: "La complejidad engendra complejidad". Un usuario que comentaba el post de 
+                    Johnson en Hacker News profundiza en esa idea:
+                </p>
+            </section>
+
+            <section>
+                <h2>Conclusión</h2>
+
+                <p>
+                    La evolución del desarrollo web refleja la necesidad de adaptarse a usuarios cada vez más exigentes.
+                    Sin embargo, este crecimiento también trae consigo nuevos desafíos técnicos.
+                </p>
+
+                <p>
+                    Podés leer la noticia completa en 
+                    <a href="https://www.genbeta.com/desarrollo/asi-se-ha-ido-complicando-arquitectura-detras-aplicaciones-web-ultimos-26-anos" target="_blank">
+                        Genbeta
+                    </a>.
+                </p>
+            </section>
+
+        </article>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 - Práctica HTML & CSS</p>
+    </footer>
+
+</body>
+</html>

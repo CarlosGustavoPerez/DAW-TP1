@@ -3,10 +3,8 @@
 ## 📌 Información
 
 - **Materia:** Desarrollo de Aplicaciones Web  
-- **Alumno:** Gustavo Pérez  
-- **Comisión:** [Tu comisión]
-
----
+- **Alumno:** Carlos Gustavo Pérez  
+- **Comisión:** 4°-A
 
 # 📁 Clase 01 - Git y GitHub
 
@@ -16,7 +14,7 @@ Familiarizarse con el uso básico de Git y GitHub, incluyendo creación de repos
 
 ## 📝 Descripción
 
-Se creó un repositorio público y se practicó el flujo de trabajo básico con Git:
+Se creó un repositorio público y se trabajó el flujo básico de control de versiones:
 - Inicialización del repositorio  
 - Creación de ramas  
 - Commits  
@@ -29,26 +27,25 @@ Se creó un repositorio público y se practicó el flujo de trabajo básico con 
 
 ## 🎯 Objetivo
 
-Aplicar los conceptos básicos de HTML mediante la creación de un documento que represente el contenido de una noticia real.
+Aplicar los conceptos básicos de HTML creando un documento estructurado a partir de una noticia real.
 
 ## 📝 Descripción
 
-Se seleccionó una noticia online y se replicó su contenido principal en un archivo `index.html`, respetando su estructura semántica:
+Se replicó el contenido principal de una noticia online utilizando HTML, respetando su estructura semántica:
 
 - Título  
 - Subtítulos  
 - Párrafos  
 
-## 🌐 Noticia seleccionada
+## 🌐 Noticia utilizada
 
-Microsoft corrige un zero-day en SharePoint y parchea 169 vulnerabilidades  
 https://unaaldia.hispasec.com/2026/04/microsoft-corrige-un-zero-day-en-sharepoint-y-parchea-169-vulnerabilidades.html
 
 ## 🌿 Trabajo con Git
 
-- Rama utilizada: `clase-02-html`  
-- Desarrollo realizado en una branch independiente  
-- Integración mediante Pull Request a `main`  
+- Rama: `clase-02-html`  
+- Desarrollo en branch independiente  
+- Integración mediante Pull Request  
 
 ---
 
@@ -56,34 +53,66 @@ https://unaaldia.hispasec.com/2026/04/microsoft-corrige-un-zero-day-en-sharepoin
 
 ## 🎯 Objetivo
 
-Mejorar la estructura del documento HTML incorporando etiquetas semánticas y agregar un formulario de suscripción, diferenciando elementos de bloque y de línea.
+Mejorar la estructura HTML incorporando etiquetas semánticas y agregar un formulario de suscripción.
 
 ## 📝 Descripción
 
-Se retomó el archivo `index.html` de la actividad anterior y se realizaron las siguientes mejoras:
+Se optimizó el archivo `index.html` utilizando etiquetas semánticas y se incorporó un formulario con campos básicos.
 
-- Reorganización del contenido usando etiquetas semánticas:
+### Mejoras aplicadas
+
+- Uso de etiquetas semánticas:
   - `<nav>`, `<main>`, `<article>`, `<section>`, `<header>`
-- Incorporación de elementos en línea como `<a>` y `<strong>`
-- Mejora de la estructura del contenido para mayor claridad y orden
-
-## 🧾 Formulario agregado
-
-Se incorporó un formulario de suscripción que incluye:
-
-- Campo de nombre  
-- Campo de correo electrónico  
-- Botón de envío  
-
-Etiquetas utilizadas:
-- `<form>`, `<label>`, `<input>`, `<button>`
-- `<fieldset>` y `<legend>` (estructura adicional)
+- Uso de elementos en línea:
+  - `<a>`, `<strong>`
+- Incorporación de formulario:
+  - `<form>`, `<label>`, `<input>`, `<button>`
+  - `<fieldset>` y `<legend>`
 
 ## 🌿 Trabajo con Git
 
-- Rama utilizada: `clase-03-formularios`  
-- Desarrollo realizado sobre una nueva branch  
-- Integración mediante Pull Request a `main`  
+- Rama: `clase-03-formularios`  
+- Desarrollo en branch independiente  
+- Integración mediante Pull Request  
+
+---
+
+# 🎨 Clase 04 - Introducción a CSS
+
+## 🎯 Objetivo
+
+Aplicar estilos CSS a un documento HTML, separando estructura y presentación, y aproximando el diseño visual de una noticia real.
+
+## 📝 Descripción
+
+Se creó un nuevo archivo HTML (`noticia.html`) junto con una hoja de estilos externa (`styles.css`), replicando tanto la estructura como la apariencia general de una noticia online.
+
+### Estilos aplicados
+
+- Colores y tipografía  
+- Márgenes y espaciado  
+- Alineación de contenido  
+- Layout centrado  
+- Navegación simulada  
+- Uso de imágenes  
+- Footer  
+
+### Selectores CSS utilizados
+
+- Selector universal (`*`)  
+- Selector de etiqueta (`body`, `p`, `h2`)  
+- Selector de clase (`.container`, `.nav`, `.article`)  
+- Selector descendente (`.article h1`)  
+
+## 🌐 Noticia utilizada
+
+https://www.genbeta.com/desarrollo/asi-se-ha-ido-complicando-arquitectura-detras-aplicaciones-web-ultimos-26-anos
+
+## 🌿 Trabajo con Git
+
+- Rama: `clase-04-css`  
+- Desarrollo en branch independiente  
+- Integración mediante Pull Request  
 
 ---
 
@@ -91,13 +120,15 @@ Etiquetas utilizadas:
 
 ```bash
 /
-├── index.html
+├── index.html        # Actividades Clase 02 y 03
+├── noticia.html      # Actividad Clase 04
+├── styles.css        # Estilos CSS Clase 04
 └── README.md
 ```
 
 ## ✅ Estado
 
-✔ Actividad completada
+✔ Actividades completadas hasta Clase 04
 
 
 \## 📎 Notas
