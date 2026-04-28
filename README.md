@@ -1,102 +1,25 @@
-\# 🚀 Clase 01 - Git y GitHub
+# 🚀 Desarrollo de Aplicaciones Web
 
+## 📌 Información
 
+- **Materia:** Desarrollo de Aplicaciones Web  
+- **Alumno:** Carlos Gustavo Pérez  
+- **Comisión:** 4°-A
 
-\## 📌 Información General
+# 📁 Clase 01 - Git y GitHub
 
+## 🎯 Objetivo
 
+Familiarizarse con el uso básico de Git y GitHub, incluyendo creación de repositorios, manejo de ramas y uso de Pull Requests.
 
-\- \*\*Materia:\*\* Desarrollo de Aplicaciones Web  
+## 📝 Descripción
 
-\- \*\*Alumno:\*\* Carlos Gustavo Pérez  
-
-\- \*\*Comisión:\*\* 4°-A
-
-
-
-\---
-
-
-
-\## 🎯 Objetivo
-
-
-
-Este repositorio fue creado como parte de la actividad correspondiente a la Clase 01.  
-
-El objetivo principal es aplicar y consolidar el flujo de trabajo básico con Git y GitHub, incluyendo:
-
-
-
-\- Creación de repositorios
-
-\- Gestión de ramas
-
-\- Uso de Pull Requests
-
-
-
-\---
-
-
-
-\## 📚 Contenidos Abordados
-
-
-
-\- Introducción a Git y su propósito
-
-\- Diferencias entre repositorios locales y remotos
-
-\- Flujo de trabajo básico
-
-\- Manejo de ramas (branching)
-
-\- Creación y revisión de Pull Requests
-
-
-
-\---
-
-
-
-\## 🛠️ Comandos Utilizados
-
-
-
-```bash
-
-git init
-
-git add .
-
-git commit -m "Primer commit"
-
-git push
-
-```
-
-
-
-\## 🌿 Flujo de Trabajo
-
-
-
-1\. Creación del repositorio  
-
-2\. Creación de una nueva rama  
-
-3\. Realización de cambios  
-
-4\. Commit de los cambios  
-
-5\. Push al repositorio remoto  
-
-6\. Creación de Pull Request  
-
-
-
-\---
+Se creó un repositorio público y se trabajó el flujo básico de control de versiones:
+- Inicialización del repositorio  
+- Creación de ramas  
+- Commits  
+- Push al repositorio remoto  
+- Pull Requests  
 
 ---
 
@@ -104,53 +27,108 @@ git push
 
 ## 🎯 Objetivo
 
-El objetivo de esta actividad es aplicar los conceptos básicos de HTML, construyendo un documento correctamente estructurado que represente el contenido de una noticia real.
+Aplicar los conceptos básicos de HTML creando un documento estructurado a partir de una noticia real.
 
 ## 📝 Descripción
 
-Se seleccionó una noticia de un diario online y se replicó su contenido principal en un archivo `index.html`, respetando su estructura semántica (título, subtítulos y párrafos).
+Se replicó el contenido principal de una noticia online utilizando HTML, respetando su estructura semántica:
 
-## 🌐 Noticia seleccionada
+- Título  
+- Subtítulos  
+- Párrafos  
 
-Microsoft corrige un zero-day en SharePoint y parchea 169 vulnerabilidades  
+## 🌐 Noticia utilizada
+
 https://unaaldia.hispasec.com/2026/04/microsoft-corrige-un-zero-day-en-sharepoint-y-parchea-169-vulnerabilidades.html
 
 ## 🌿 Trabajo con Git
 
-- Rama utilizada: `clase-02-html`
-- Desarrollo realizado en dicha rama
-- Integración mediante Pull Request a `main`
-
-## 🛠️ Tecnologías utilizadas
-
-- HTML5  
-- Git  
-- GitHub  
+- Rama: `clase-02-html`  
+- Desarrollo en branch independiente  
+- Integración mediante Pull Request  
 
 ---
 
-## 🌿 Flujo de trabajo con Git
+# 🧩 Clase 03 - HTML Semántico y Formularios
 
-- Se creó una rama específica para la actividad: `clase-02-html`  
-- Se desarrolló el archivo `index.html` en dicha rama  
-- Se realizó commit con los cambios  
-- Se subió la rama al repositorio remoto  
-- Se creó una Pull Request hacia `main`  
-- Se integraron los cambios mediante merge  
+## 🎯 Objetivo
+
+Mejorar la estructura HTML incorporando etiquetas semánticas y agregar un formulario de suscripción.
+
+## 📝 Descripción
+
+Se optimizó el archivo `index.html` utilizando etiquetas semánticas y se incorporó un formulario con campos básicos.
+
+### Mejoras aplicadas
+
+- Uso de etiquetas semánticas:
+  - `<nav>`, `<main>`, `<article>`, `<section>`, `<header>`
+- Uso de elementos en línea:
+  - `<a>`, `<strong>`
+- Incorporación de formulario:
+  - `<form>`, `<label>`, `<input>`, `<button>`
+  - `<fieldset>` y `<legend>`
+
+## 🌿 Trabajo con Git
+
+- Rama: `clase-03-formularios`  
+- Desarrollo en branch independiente  
+- Integración mediante Pull Request  
 
 ---
 
-## 📎 Estructura del proyecto
+# 🎨 Clase 04 - Introducción a CSS
+
+## 🎯 Objetivo
+
+Aplicar estilos CSS a un documento HTML, separando estructura y presentación, y aproximando el diseño visual de una noticia real.
+
+## 📝 Descripción
+
+Se creó un nuevo archivo HTML (`noticia.html`) junto con una hoja de estilos externa (`styles.css`), replicando tanto la estructura como la apariencia general de una noticia online.
+
+### Estilos aplicados
+
+- Colores y tipografía  
+- Márgenes y espaciado  
+- Alineación de contenido  
+- Layout centrado  
+- Navegación simulada  
+- Uso de imágenes  
+- Footer  
+
+### Selectores CSS utilizados
+
+- Selector universal (`*`)  
+- Selector de etiqueta (`body`, `p`, `h2`)  
+- Selector de clase (`.container`, `.nav`, `.article`)  
+- Selector descendente (`.article h1`)  
+
+## 🌐 Noticia utilizada
+
+https://www.genbeta.com/desarrollo/asi-se-ha-ido-complicando-arquitectura-detras-aplicaciones-web-ultimos-26-anos
+
+## 🌿 Trabajo con Git
+
+- Rama: `clase-04-css`  
+- Desarrollo en branch independiente  
+- Integración mediante Pull Request  
+
+---
+
+## 📂 Estructura del proyecto
 
 ```bash
 /
-├── index.html
+├── index.html        # Actividades Clase 02 y 03
+├── noticia.html      # Actividad Clase 04
+├── styles.css        # Estilos CSS Clase 04
 └── README.md
 ```
 
 ## ✅ Estado
 
-✔ Actividad completada
+✔ Actividades completadas hasta Clase 04
 
 
 \## 📎 Notas
