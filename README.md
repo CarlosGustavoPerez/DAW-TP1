@@ -116,19 +116,66 @@ https://www.genbeta.com/desarrollo/asi-se-ha-ido-complicando-arquitectura-detras
 
 ---
 
+# 📱 Clase 05 - Responsive Design
+
+## 🎯 Objetivo
+
+Desarrollar una página responsive basada en una noticia real, aplicando HTML semántico, CSS externo y media queries para adaptar la visualización a desktop, tablet y mobile.
+
+## 📝 Descripción
+
+Se creó una nueva página HTML junto con una hoja de estilos CSS responsive, replicando una noticia del sitio Genbeta.
+
+### Características implementadas
+
+- Header inspirado en Genbeta
+- Navbar responsive
+- Uso de Flexbox
+- Media queries
+- Adaptación para:
+  - desktop
+  - tablet
+  - mobile
+- Uso del Box Model
+- Imágenes responsive
+- Layout adaptable
+
+## 🌐 Noticia utilizada
+
+https://www.genbeta.com/inteligencia-artificial/ceo-cada-vez-exigen-horas-trabajo-empleados-valoran-que-nunca-ocio-ia-tiene-mucha-culpa-ambos
+
+## 🌿 Trabajo con Git
+
+- Rama: `clase-05-responsive`
+- Desarrollo en branch independiente
+- Integración mediante Pull Request
+
 ## 📂 Estructura del proyecto
 
 ```bash
 /
-├── index.html        # Actividades Clase 02 y 03
-├── noticia.html      # Actividad Clase 04
-├── styles.css        # Estilos CSS Clase 04
+├── assets
+│   ├── css
+│   │   ├── styles.css        # Estilos CSS Clase 04
+│   │   ├── responsive.css        # Estilos CSS Clase 05
+│   └── img
+│       ├── 1366_2000 (2).webp        # Imagen Clase 04
+│       ├── 1366_2000 (1).webp        # Imagen Clase 04
+│       ├── 1366_2000.webp        # Imagen Clase 04
+│       ├── ia-trabajo.webp        # Imagen Clase 05
+│       └── head-brand-logo.svg        # Imagen Clase 05
+│  
+├── pages
+│  ├── index.html        # Actividades Clase 02 y 03
+│  ├── noticia.html      # Actividad Clase 04
+│  └── responsive.html      # Actividad Clase 05
+│
 └── README.md
 ```
 
 ## ✅ Estado
 
-✔ Actividades completadas hasta Clase 04
+✔ Actividades completadas hasta Clase 05
 
 
 \## 📎 Notas
